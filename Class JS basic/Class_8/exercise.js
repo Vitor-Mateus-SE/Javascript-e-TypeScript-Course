@@ -6,7 +6,7 @@ const heightInKg = 80;
 const high = 1.79;
 let imcCalculated = heightInKg / (high * high);
 let yearBorn = 2024 - years;
-console.log(
+/*console.log(
   name,
   "has",
   years,
@@ -18,4 +18,6 @@ console.log(
   imcCalculated,
   "and was born in ",
   yearBorn
-);
+); */
+// using template strings
+console.log(`${name} has ${years}, old, wheighs ${heightInKg}kg and has ${high} High and your IMC is ${imcCalculated} and was born in ${yearBorn}`);
