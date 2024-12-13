@@ -14,6 +14,6 @@ console.log(typeof num1);
 console.log(typeof num2);
 num1 = Number(num1);
 num2 = Number(num2);
-console.log(num1 + num2);
+alert(`sum of this count is: ${num1 + num2}`);
 console.log(typeof num1);
 console.log(typeof num2);
