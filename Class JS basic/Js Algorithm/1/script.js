@@ -1,5 +1,5 @@
 //Algorithm is instructions in a order and logic for solve a problem
-// make a script for solve second gradu equation
+// make a script for solve second grau equation
 let a = Number(prompt("number one"));
 let b = Number(prompt("number two"));
 let c = Number(prompt("number three"));
