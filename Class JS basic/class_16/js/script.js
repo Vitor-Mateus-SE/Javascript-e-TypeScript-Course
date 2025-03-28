@@ -7,5 +7,5 @@ sum = num1 + num2;
 alert(`the sum of these numbers is ${sum}`);
 console.log(sum);
 */
-let kat = 85 % 13;
+let kat = 83 % 13;
 console.log(kat);

@@ -1,0 +1,22 @@
+let numSelect = Number(prompt("Put a number"));
+const numberTitle = document.getElementById("number-title");
+const div1 = document.getElementById("div1");
+/*const div2 = document.getElementById("div2");
+const div3 = document.getElementById("div3");
+const div4 = document.getElementById("div4");
+const div5 = document.getElementById("div5");
+const div6 = document.getElementById("div6");
+numberTitle.innerHTML = numSelect;
+div1.innerHTML = `<p>Your square root is:${Math.sqrt(numSelect)}</p>`;
+div2.innerHTML = `<p>Is a Integer:${Number.isInteger(numSelect)}</p>`;
+div3.innerHTML = `<p>Is a NaN:${Number.isNaN(numSelect)}</p>`;
+div4.innerHTML = `<p>Round down:${Math.floor(numSelect)}</p>`;
+div5.innerHTML = `<p>Round up:${Math.ceil(numSelect)}</p>`;
+div6.innerHTML = `<p>with 2 numbers after:${numSelect.toFixed(2)}</p>`;
+*/
+div1.innerHTML = `<p>Your square root is:${Math.sqrt(numSelect)}</p>`;
+div1.innerHTML += `<p>Is a Integer:${Number.isInteger(numSelect)}</p>`;
+div1.innerHTML += `<p>Is a NaN:${Number.isNaN(numSelect)}</p>`;
+div1.innerHTML += `<p>Round down:${Math.floor(numSelect)}</p>`;
+div1.innerHTML += `<p>Round up:${Math.ceil(numSelect)}</p>`;
+div1.innerHTML += `<p>with 2 numbers after: ${numSelect.toFixed(2)}</p>`;
