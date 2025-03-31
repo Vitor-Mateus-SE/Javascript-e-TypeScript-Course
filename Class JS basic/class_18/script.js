@@ -20,5 +20,5 @@ const root = function (n) {
 console.log(root(9));
 
 //third way, more advanced actually, the arrow function, easyleer
-const root2 = n => {n ** 0.5};
+const root2 = n => n ** 0.5;
 console.log(root2(9));
