@@ -49,3 +49,11 @@ form button{
 form button:hover, form button:active{
     background: var(--primary1-color);
 }
+.paragraphResultTrue{
+  background-color: rgb(0, 197, 82);
+  padding: 10px 15px;
+}
+.paragraphResultFalse{
+  background-color: rgb(155, 0, 0);
+  padding: 10px 15px;
+}
