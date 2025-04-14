@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="model" content="width=device-width, initial-scale=1.0" />
+    <title>Imc</title>
+    <link rel="stylesheet" href="./../model/assets/css/style.css" />
+    <style>
+      body {
+        background-color: #005662;
+      }
+       section h1{
+        margin: 0 0 -40px 0;
+      }
+      div.container {
+        margin: 30px 30px 0px -15px;
+        display: flex;
+      }
+      div.box {
+        margin: 0 50px 0 0;
+      }
+      div.formbox{
+        padding:0;
+        margin: -30px 0 0 0;
+      }
+    
+ 
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <h1><strong>Imc Table</strong></h1>
+      <div class="container">
+        <div class="box">
+          <p><strong>IMC</p></strong>
+          <p>Lesser than 18.5<br>Between 18.5 and 24.9<br>Between 25 and 29.9<br>Between 30 and 34.9<br>Between 35 and 39.9<br>More than 40</p>
+        </div>
+        <div class="box">
+          <p><strong>Result</p></strong>
+          <p>Underweight<br>Normal weight<br>Overweight<br>Obesity grade 1<br>Obesity grade 2<br>Obesity grade 3</p></div>
+      </div>
+
+      <div class="formbox">
+        <h2>Calculate your imc</h2>
+        <!--onsubmit="return false"-->
+      <form action="" class="form" onsubmit="return false"; >
+        <label for="weight"><strong>Weight:</strong></label>
+        <input type="text" class="weight" id="weight" name="weight">
+        <label for="height"> <strong>Height:</strong></label>
+        <input type="text" class="height" id="height" name="height">
+        <button onclick="calculate()">Calculate</button>
+      </form>
+    </div>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
+</html>
